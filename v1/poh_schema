@@ -33,23 +33,14 @@
       "items": {
         "type": "object",
         "properties": {
-          "id": {
+          "wallet": {
             "type": "string"
           },
-          "unique": {
+          "isPOH": {
             "type": "boolean"
-          },
-          "provider": {
-            "type": "string"
-          },
-          "verificationHash": {
-            "type": "string"
-          },
-          "address": {
-            "type": "string"
           }
         },
-        "required": ["id", "unique", "provider", "verificationHash", "address"]
+        "required": ["wallet", "isPOH"]
       }
     },
     "credentialStatus": {
